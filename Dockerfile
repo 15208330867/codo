@@ -19,7 +19,7 @@ RUN rm -rf /usr/local/bin/node && rm -rf /usr/local/bin/npm \
 && ln -s /usr/local/node-v10.16.1-linux-x64/bin/npm /usr/local/bin/npm \
 && ln -s /usr/local/node-v10.16.1-linux-x64/bin/npm /usr/bin/npm
 
-# 4. 复制代码667
+# 4. 复制代码888
 RUN mkdir -p /app
 ADD . /app
 
